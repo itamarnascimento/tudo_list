@@ -73,7 +73,7 @@ function App() {
          <Modal
             children={
                <TaskForm
-                  btnText="Salvar edição"
+                  btnText="Salvar edição "
                   taskList={taskList}
                   task={taskToUpdate}
                   handleUpdate={updateTask}
