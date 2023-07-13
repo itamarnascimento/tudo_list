@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Copiar'){
             steps {
-                bat  """ Robocopy ${workspace}\\dist C:\\xampp8\\htdocs\\dist /E /R:3 /IS /S > NUL """
+                bat  """ Robocopy ${workspace}\\dist C:\\xampp8\\htdocs\\dist /E /IS /S """
             }
         }         
     }
