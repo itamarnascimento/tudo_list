@@ -99,7 +99,7 @@ const TaskForm = ({
             <input
                type="text"
                name="title"
-               placeholder="Título da tarefa"
+               placeholder="Título da tarefaaa"
                onChange={handleChange}
                value={title}
                className="form-control"
