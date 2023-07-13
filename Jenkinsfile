@@ -5,11 +5,11 @@ pipeline {
         stage('Build') { 
             steps {
                 bat """
-                cd ${workspace}\\web
+                cd ${workspace}
                 npm install"""
                 bat """
-                cd ${workspace}\\web
-                npx next build"""
+                cd ${workspace}
+                npm run build"""
             }
         }         
     }
