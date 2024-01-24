@@ -79,7 +79,7 @@ const TaskForm = ({
             setTitle("");
             setDifficulty(0);
 
-            tituloHtml[1].focus();
+            tituloHtml[1].focus(); 
          }
       }
    };
