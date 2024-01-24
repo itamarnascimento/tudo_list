@@ -88,7 +88,7 @@ const TaskForm = ({
       if (e.target.name === "title") {
          setTitle(e.target.value);
       } else {
-         setDifficulty(Number(e.target.value));
+         setDifficulty(Number(e.target.value)); 
       }
    };
 
