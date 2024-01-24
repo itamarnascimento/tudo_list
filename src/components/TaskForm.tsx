@@ -79,7 +79,7 @@ const TaskForm = ({
             setTitle("");
             setDifficulty(0);
 
-            tituloHtml[1].focus();
+            tituloHtml[1].focus(); 
          }
       }
    };
@@ -88,7 +88,7 @@ const TaskForm = ({
       if (e.target.name === "title") {
          setTitle(e.target.value);
       } else {
-         setDifficulty(Number(e.target.value));
+         setDifficulty(Number(e.target.value)); 
       }
    };
 
